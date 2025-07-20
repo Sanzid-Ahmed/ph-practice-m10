@@ -41,7 +41,28 @@ nav{
 /* Header Contents */
 .header-content{
     display: flex;
-    max-width: 1200;
+    max-width: 1200px;
     justify-content: space-between;
     margin: 0 auto;
 }
+.header-txt{
+    width: 36.3rem;
+}
+.header-image{
+    position: relative;
+}
+.header-image img:first-child{
+    display: block;
+    width: 15rem;
+}
+.header-image img:last-child{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 14rem;
+}
+.header-image img{
+    width: 27.5rem;
+}
+
+
