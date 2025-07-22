@@ -74,7 +74,7 @@ nav{
 }
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 860px) {
     nav{
         flex-direction: column;
         align-items: center;
@@ -85,7 +85,39 @@ nav{
     }
     .header-txt {
         text-align: center;
-        width: 100%;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .name{
+        text-align: center;
+    }
+    .nav-links-icons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+/* Company logos */
+.website-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1110px;
+    gap: 110px;
+    margin: 100px auto;
+}
+.website-logo img{
+    width: 4.2rem;
+}
+
+@media screen and (max-width: 860px) {
+    .website-logo{
+        flex-wrap: wrap;
     }
     
 }
